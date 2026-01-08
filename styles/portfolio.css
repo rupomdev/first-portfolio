@@ -10,6 +10,7 @@
 }
 .logo h2{
     font-size: 45px;
+    font-weight: 900;
 }
 
 
@@ -18,6 +19,9 @@ header{
     background-color: #FFF8F3;
     padding-top: 50px;
 }
+.color-orange{
+    color: #FD6E0A;
+}
 nav{
     width: 71%;
     max-width: 1140px;
@@ -25,4 +29,25 @@ nav{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+    align-items: center;
+}
+nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
 }
